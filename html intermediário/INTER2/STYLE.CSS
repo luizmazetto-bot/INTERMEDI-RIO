@@ -1,0 +1,152 @@
+    {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6e6e6;
+    margin: 0;
+    padding: 40px 20px;
+}
+
+
+
+.folha {
+    width: 600px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 45px;
+    background-color: white;
+
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.20);
+}
+
+
+
+h1 {
+    text-align: center;
+    color: #222;
+    font-size: 28px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+
+
+.subtitulo {
+    text-align: center;
+    color: #666;
+    font-size: 15px;
+    margin-bottom: 35px;
+}
+
+
+
+.campo {
+    margin-bottom: 22px;
+}
+
+
+
+label {
+    display: block;
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 7px;
+}
+
+
+
+input,
+select {
+    width: 100%;
+    padding: 12px;
+
+    border: 1px solid #5f5f5f;
+    border-radius: 5px;
+
+    font-size: 15px;
+    background-color: #fff;
+}
+
+
+
+input:focus,
+select:focus {
+    outline: none;
+    border: 2px solid #4a90e2;
+}
+
+
+
+.titulo {
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+
+
+.opcoes {
+    display: flex;
+    gap: 25px;
+}
+
+.opcoes div {
+    display: flex;
+    align-items: center;
+}
+
+.opcoes input {
+    width: auto;
+    margin-right: 7px;
+}
+
+.opcoes label {
+    margin: 0;
+    font-weight: normal;
+}
+
+
+
+.termos {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.termos input {
+    width: auto;
+    margin-right: 8px;
+}
+
+.termos label {
+    margin: 0;
+    font-weight: normal;
+}
+
+
+
+button {
+    width: 100%;
+    padding: 14px;
+
+    background-color: #bb0971;
+    color: rgb(0, 0, 0);
+
+    border: none;
+    border-radius: 5px;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+
+
+button:hover {
+    background-color: #d80a71; }
